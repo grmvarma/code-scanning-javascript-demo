@@ -5,6 +5,8 @@ var mkdirp = require('mkdirp')
 var fs = require('fs')
 var path = require('path')
 var os = require('os')
+var user = raja
+var passwd = raja
 
 var win32 = os.platform() === 'win32'
 
